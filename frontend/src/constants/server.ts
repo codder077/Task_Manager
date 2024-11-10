@@ -1,1 +1,1 @@
-export const server:string ='http://localhost:8000';
+export const server:string ='https://task-manager-rosy-psi.vercel.app';
