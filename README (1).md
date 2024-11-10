@@ -162,14 +162,11 @@ task-manager/
 - **Backend**: Each task includes a duration field. A scheduled job or conditional check moves tasks to "Timeout" if their duration exceeds a certain limit.
 - **Frontend**: Category Slider displays tasks by category. Tasks in "Timeout" are fetched and shown automatically based on the backend response.
 
-### Advanced Async Handling
-- **Streaming API**: `GET /streaming` endpoint fetches streaming data using async/await.
-- **Error Handling**: Both frontend and backend provide informative error messages for a smooth experience.
 
 ## Deployment Notes
 
 - **Environment Variables**: Ensure frontend and backend URLs are configured correctly.
 - **Links**: 
-  - Frontend: (task-manager-inxw.vercel.app/)
+  - Frontend: (https://task-manager-inxw.vercel.app/)
   - Backend: (https://task-manager-rosy-psi.vercel.app)
 
